@@ -1,0 +1,14 @@
+{
+  "name": "hue-twinkle",
+  "version": "1.0.0",
+  "description": "Make your Hue lights twinkle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuTsaV/hue-twinkle"
+  },
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "Gustav Ehrenborg",
+  "license": "UNLICENSED"
+}
