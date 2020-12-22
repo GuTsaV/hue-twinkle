@@ -7,8 +7,12 @@
     "url": "https://github.com/GuTsaV/hue-twinkle"
   },
   "scripts": {
-    "run": "node index.js"
+    "start": "node -r dotenv/config index.js"
   },
   "author": "Gustav Ehrenborg",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0"
+  }
 }
